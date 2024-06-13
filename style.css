@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cinza-claro: #6c6c6c;
+    --branco: #FFF;
+    --altura_cartao: 500px;
+    --largura_cartao: 300px;
+}
+
+.container {
+    margin: 0 80px 80px;
+}
+
+.container_header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_hamburguer{
+    display: none;
+}
+
+.header_links {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.header_icones {
+    display: flex;
+    gap: 20px;
+}
+
+.header_link_texto {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: var(--cinza-claro);
+    text-decoration: none;
+}
+
+.icone_sol, .icone_lua{
+height: 50px;
+}
+
+.container_main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cartao {
+    width: var(--largura_cartao);
+    height: var(--altura_cartao);
+}
+
+#beatrizCampos {
+    background-color: rgb(213, 134, 220);
+}
+
+.conteudo_card_bia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.image_bea{
+    width: 150px;
+    border: solid rgb(90, 205, 96) 2px;
+    border-radius: 20px;
+}
+
+#beatrizCampos .tag_p_bia {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    color: var(--branco);
+}
+
+#beatrizCampos .texto_bia {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: var(--branco);
+}
+
+.gif_ursinho_bea{
+    width: 150px;
+}
+
+
+#joaoViegas {
+    border: none;
+    background-image: url("./files/Novo-Projeto.svg");
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: azure;
+}
+
+#joaoViegasCima {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#joaoViegasFoto {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.joaoViegasFotoBorda {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #6c6c6c;
+    border-radius: 100px;
+    display: flex;
+}
+
+#joaoViegasFotoItem {
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgba(1, 12, 22, 0.8);
+    border-radius: 100px;
+    display: flex;
+
+}
+
+#joaoViegasInformacao {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.joao__informacao__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.joao__informacao__item__informação {
+    margin: 0;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(1, 12, 22, 0.4);
+    border: 2px solid #6c6c6c;
+}
+
+#joaoViegasBaixo {
+    background: #6c6c6c;
+    /* background: linear-gradient(to bottom, #0b054e,rgb(131, 131, 131) ,rgb(131, 131, 131)); */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.joao__logo__vertical__separator {
+    width: 1px;
+    height: 43px;
+    display: block;
+    background-color: #d8d8d8;
+}
+
+#jessicaMendes {
+    background-color: #282a36;
+}
+
+.jessicaMendes_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #eff1ea;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 200px;    ;
+    font-size: 14px;
+}
+
+.jessicaMendes_card_foto {
+    width: 150px;
+    height: 150px;
+    padding: 20% 0 2% 0;
+}
+
+.jessicaMendes_card_main {
+    width: 300px;
+    padding: 8% 0 5% 0;
+}
+
+.jessicaMendes_card_linkedin{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.jessicaMendes_card_link_linkedin {
+    text-decoration: none;
+    color: #eff1ea;
+    font-family: "Source Code Pro", monospace;
+} 
+
+
+footer {
+    width: 100%;
+    background-image: url("./files/background-footer.png");
+    background-size: cover;
+}
+
+.container_footer {
+    margin: 0 80px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulos_footer {
+    font-family: "Montserrat", "sans-serif";
+    font-size: 25px;
+    color: #FFF;
+}
+
+.footer_logos_alura,
+.footer_logos_parceria,
+.footer_logos_sesi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer_logo_sesi {
+    width: 200px;
+}
+
+/* Responsividade para celular */
+
+@media (max-width: 465px){
+    .container {
+        margin: 0 40px 50px;
+    }
+    .container_header{
+        padding: 70px 0px;
+    }
+
+    .container_header, .header_links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header_links{
+        display: none;
+    }
+
+    .menu_hamburguer{
+        display: block;
+    }
+
+    .container_main{
+        gap: 30px;
+    }
+
+    .footer{
+        height: 450px;
+    }
+
+    .container_footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        gap: 20px;
+    }
+
+    .logos_redes_sesi_include{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+        gap: 10px;
+    }
+}
+
+/* MANIPULAÇÃO DO DOM*/
+
+.dark-mode{
+    background-color: #161b38;
+}
+
+.dark-mode-fontes{
+    color: #FFF;
+}
+
+.header_links_ativo{
+    display: block;
+}
+
+
+
